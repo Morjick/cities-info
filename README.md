@@ -39,26 +39,20 @@
 
 <p>Если вам не нужен весь список регионов, можно провести фильтрацию, передав первым параметром в метод <strong>getCities</strong> набор опций:</p>
 
-```function getWithFilter (element) {```
-```  return element.name.includes('Москва')```
-```}```
-``` ```
+```function getWithFilter (element) { return element.name.includes('Москва') }```
+
 ```const cities = Cities.getCity({ where: getWithFilter })```
 
 <p>Если вам не нужны все параметры элемента, то вторым методом можно передать массив с перечисленными значениями в виде строки:</p>
 
-```function getWithFilter (element) {```
-```  return element.name.includes('Москва')```
-```}```
-``` ```
+```function getWithFilter (element) { return element.name.includes('Москва') }```
+
 ```const cities = Cities.getCity({ where: getWithFilter }, ['name', 'type', 'name_with_type'])```
 
 <p>Так же можно получить название города в предложном падеже:</p>
 
-```function getWithFilter (element) {```
-```  return element.name.includes('Москва')```
-```}```
-``` ```
+```function getWithFilter (element) { return element.name.includes('Москва') }```
+
 ```const cities = Cities.getCity({ where: getWithFilter, sklonyator: true })```
 
 <p>В таком случае в объект добавятся два новых параметра: sklon и sklonGeo для русского и английского языка</p>
