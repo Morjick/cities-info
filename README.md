@@ -8,14 +8,14 @@
   <li>sklonyator - <a target="_blank" href="https://github.com/karl93rus/gorodki">https://github.com/karl93rus/gorodki</a></li>
 </ul>
 
-```{JavaScript}npm install cities-info```
+```npm install cities-info```
 
-```{JavaScript}const Cities = require('cities-info')```
+```const Cities = require('cities-info')```
 
 <h2>В данном объекте содержатся несколько методов:</h2>
 <h3>getCities</h3>
 
-```{JavaScript}const cities = Cities.getCities()```
+```const cities = Cities.getCities()```
 
 <p>Данный метод является синхронным и возвращает список всех регионов РФ и все присутствующие поля</p>
 
@@ -39,33 +39,33 @@
 
 <p>Если вам не нужен весь список регионов, можно провести фильтрацию, передав первым параметром в метод <strong>getCities</strong> набор опций:</p>
 
-```{JavaScript}function getWithFilter (element) {```
-```{JavaScript}  return element.name.includes('Москва')```
-```{JavaScript}}```
-```{JavaScript}```
-```{JavaScript}const cities = Cities.getCity({ where: getWithFilter })```
+```function getWithFilter (element) {```
+```  return element.name.includes('Москва')```
+```}```
+``` ```
+```const cities = Cities.getCity({ where: getWithFilter })```
 
 <p>Если вам не нужны все параметры элемента, то вторым методом можно передать массив с перечисленными значениями в виде строки:</p>
 
-```{JavaScript}function getWithFilter (element) {```
-```{JavaScript}  return element.name.includes('Москва')```
-```{JavaScript}}```
-```{JavaScript}```
-```{JavaScript}const cities = Cities.getCity({ where: getWithFilter }, ['name', 'type', 'name_with_type'])```
+```function getWithFilter (element) {```
+```  return element.name.includes('Москва')```
+```}```
+``` ```
+```const cities = Cities.getCity({ where: getWithFilter }, ['name', 'type', 'name_with_type'])```
 
 <p>Так же можно получить название города в предложном падеже:</p>
 
-```{JavaScript}function getWithFilter (element) {```
-```{JavaScript}  return element.name.includes('Москва')```
-```{JavaScript}}```
-```{JavaScript}```
-```{JavaScript}const cities = Cities.getCity({ where: getWithFilter, sklonyator: true })```
+```function getWithFilter (element) {```
+```  return element.name.includes('Москва')```
+```}```
+``` ```
+```const cities = Cities.getCity({ where: getWithFilter, sklonyator: true })```
 
 <p>В таком случае в объект добавятся два новых параметра: sklon и sklonGeo для русского и английского языка</p>
 
 <h2>В случае, если вам нет необходимости использовать массив регионов, вы можете использовать метод <strong>sklon</strong></h2>
 
-```{JavaScript} const cities = Cities.sklon('Смоленск') ```
-```{JavaScript} console.log(cities) //  Смоленске ```
+``` const cities = Cities.sklon('Смоленск') ```
+``` console.log(cities) //  Смоленске ```
 
 <h1>Удачного использования</h1>
