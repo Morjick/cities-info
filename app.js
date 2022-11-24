@@ -11,4 +11,8 @@ const Cities = {
 }
 
 
+const cities = Cities.sklon('Смоленск')
+console.log(cities)
+
+
 module.exports = Cities
