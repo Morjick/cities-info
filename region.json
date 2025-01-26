@@ -1421,11 +1421,11 @@
     "oktmo": 35000000,
     "tax_office": 9100,
     "postal_code": "",
-    "iso_code": "UA-43",
+    "iso_code": "RU-91",
     "timezone": "UTC+3",
-    "geoname_code": "UA.11",
+    "geoname_code": "RU.91",
     "geoname_id": 703883,
-    "geoname_name": "Crimea"
+    "geoname_name": "Krim"
   },
   {
     "name": "Севастополь",
@@ -1438,9 +1438,9 @@
     "oktmo": 67000000,
     "tax_office": 9200,
     "postal_code": 299700,
-    "iso_code": "UA-40",
+    "iso_code": "RU-92",
     "timezone": "UTC+3",
-    "geoname_code": "UA.20",
+    "geoname_code": "RU.92",
     "geoname_id": 694422,
     "geoname_name": "Sevastopol City"
   },
@@ -1460,5 +1460,39 @@
     "geoname_code": "KZ.08",
     "geoname_id": 1538316,
     "geoname_name": "Baikonur"
+  },
+  {
+    "name": "Луганская",
+    "type": "Респ",
+    "name_with_type": "Луганская Народная Республика",
+    "federal_district": "",
+    "kladr_id": 9900000000000,
+    "fias_id": "85573958-1352-468b-9326-d9051a3dfe2e",
+    "okato": 43000000000,
+    "oktmo": 43701000001,
+    "tax_office": 9400,
+    "postal_code": 91002,
+    "iso_code": "RU-LNR",
+    "timezone": "UTC+3",
+    "geoname_code": "RU.94",
+    "geoname_id": 1538316,
+    "geoname_name": "Lugansk"
+  },
+  {
+    "name": "Донецкая",
+    "type": "Респ",
+    "name_with_type": "Донецкая Народная Республика",
+    "federal_district": "",
+    "kladr_id": 215110001340000000011,
+    "fias_id": "a30d942d-da9f-4ea0-98df-80f6a2c95dc9",
+    "okato": 21211000034,
+    "oktmo": 21511000134,
+    "tax_office": 9400,
+    "postal_code": 283001,
+    "iso_code": "RU-DNR",
+    "timezone": "UTC+3",
+    "geoname_code": "RU.93",
+    "geoname_id": 1538316,
+    "geoname_name": "Doneck"
   }
 ]
